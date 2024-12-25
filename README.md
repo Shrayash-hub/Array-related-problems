@@ -15,6 +15,7 @@ here you will get all array related problems with proper explaination and concep
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0485-max-consecutive-ones) |
 | [0792-binary-search](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0792-binary-search) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2144-maximum-difference-between-increasing-elements) |
 ## Two Pointers
 |  |
 | ------- |
