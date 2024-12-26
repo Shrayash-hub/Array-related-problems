@@ -18,6 +18,7 @@ here you will get all array related problems with proper explaination and concep
 | [0485-max-consecutive-ones](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0485-max-consecutive-ones) |
 | [0792-binary-search](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0792-binary-search) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
 | ------- |
@@ -26,6 +27,7 @@ here you will get all array related problems with proper explaination and concep
 | [0189-rotate-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
 |  |
 | ------- |
@@ -63,4 +65,8 @@ here you will get all array related problems with proper explaination and concep
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
