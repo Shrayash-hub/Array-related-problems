@@ -4,20 +4,22 @@ public:
         if(arr.size()<1){
             return 0;
         }
-        sort(arr.begin(),arr.end());
-        int count = 0;
-        int lastsmaller = INT_MIN; // to keep track on previous element it is in consecutive sequence or not
-        int largest = 1;
+        int largest =1;
+        unordered_set<int> s;
         for(int i=0;i<arr.size();i++){
-            if(arr[i]-1==lastsmaller){
-                count++;
-                lastsmaller = arr[i];
-            }
-            else if(arr[i]!=lastsmaller){
-                count = 1;
-                lastsmaller = arr[i];
-            }
-            largest = max(largest , count);
+            s.insert(arr[i]);
+        }
+        for(auto it: s){
+           if(s.find(it-1)==s.end()){
+                int count=1;
+                int x = it;
+                while(s.find(x+1)!=s.end()){
+                    x=x+1;
+                    count++;
+                }
+                largest = max(largest,count);
+           }
+            
         }
         return largest;
     }
