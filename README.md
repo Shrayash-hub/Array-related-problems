@@ -7,6 +7,7 @@ here you will get all array related problems with proper explaination and concep
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
@@ -25,6 +26,7 @@ here you will get all array related problems with proper explaination and concep
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
@@ -55,6 +57,7 @@ here you will get all array related problems with proper explaination and concep
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
