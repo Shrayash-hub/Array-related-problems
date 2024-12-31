@@ -10,6 +10,7 @@ here you will get all array related problems with proper explaination and concep
 | [0015-3sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0128-longest-consecutive-sequence) |
@@ -52,6 +53,7 @@ here you will get all array related problems with proper explaination and concep
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0792-binary-search](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0792-binary-search) |
 ## Sorting
