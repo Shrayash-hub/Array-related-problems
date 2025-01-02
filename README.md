@@ -14,6 +14,7 @@ here you will get all array related problems with proper explaination and concep
 | [0035-search-insert-position](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0035-search-insert-position) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0136-single-number) |
@@ -58,6 +59,7 @@ here you will get all array related problems with proper explaination and concep
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0792-binary-search](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0792-binary-search) |
 ## Sorting
