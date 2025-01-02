@@ -25,6 +25,7 @@ here you will get all array related problems with proper explaination and concep
 | [0485-max-consecutive-ones](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0485-max-consecutive-ones) |
 | [0792-binary-search](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0792-binary-search) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/Shrayash-hub/Array-related-problems/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1677-matrix-diagonal-sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/1677-matrix-diagonal-sum) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
@@ -93,4 +94,5 @@ here you will get all array related problems with proper explaination and concep
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
+| [1677-matrix-diagonal-sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/1677-matrix-diagonal-sum) |
 <!---LeetCode Topics End-->
