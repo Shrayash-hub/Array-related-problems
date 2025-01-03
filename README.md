@@ -12,6 +12,7 @@ here you will get all array related problems with proper explaination and concep
 | [0031-next-permutation](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0035-search-insert-position) |
+| [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -42,6 +43,7 @@ here you will get all array related problems with proper explaination and concep
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0189-rotate-array) |
 ## Bit Manipulation
 |  |
@@ -93,6 +95,7 @@ here you will get all array related problems with proper explaination and concep
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [1677-matrix-diagonal-sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/1677-matrix-diagonal-sum) |
 <!---LeetCode Topics End-->
