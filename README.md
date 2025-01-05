@@ -13,6 +13,7 @@ here you will get all array related problems with proper explaination and concep
 | [0033-search-in-rotated-sorted-array](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -89,6 +90,7 @@ here you will get all array related problems with proper explaination and concep
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Shrayash-hub/Array-related-problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union Find
 |  |
@@ -98,6 +100,7 @@ here you will get all array related problems with proper explaination and concep
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [1677-matrix-diagonal-sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/1677-matrix-diagonal-sum) |
 <!---LeetCode Topics End-->
