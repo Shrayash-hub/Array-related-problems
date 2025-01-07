@@ -14,6 +14,7 @@ here you will get all array related problems with proper explaination and concep
 | [0035-search-insert-position](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -74,6 +75,7 @@ here you will get all array related problems with proper explaination and concep
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/Shrayash-hub/Array-related-problems/tree/master/0349-intersection-of-two-arrays) |
