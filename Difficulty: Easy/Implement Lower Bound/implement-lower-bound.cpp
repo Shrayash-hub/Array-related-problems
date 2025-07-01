@@ -8,9 +8,9 @@ class Solution {
         int ans = arr.size();
         while(low<=high){
             int mid = low + (high-low)/2;
-            // upper bound of a number is defined as the smallest index in the 
-            //sorted array where the element is only greater than or equal to the given number.
-            if(arr[mid]>=target){ // so arr[mid]>target
+            // lower bound of a number is defined as the smallest index in the 
+            //sorted array where the element is only greater than to the given number.
+            if(arr[mid]>=target){ // so arr[mid]>=target
                 ans = mid;
                 high = mid-1;
             }
