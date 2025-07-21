@@ -1,74 +1,24 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
-/*You are required to complete this function*/
-
 class Solution {
   public:
-    int maxLen(vector<int>& a) {
-        // code here
-        int k=0;
-         int n = a.size(); // size of the array.
-
-    map<long long, int> preSumMap;
-    long long sum = 0;
-    int maxLen = 0;
-    for (int i = 0; i < n; i++) {
-        //calculate the prefix sum till index i:
-        sum += a[i];
-
-        // if the sum = k, update the maxLen:
-        if (sum == k) {
-            maxLen = max(maxLen, i + 1);
+    int maxLength(vector<int>& arr) {
+        //so the intution is we will be finding the two subarray with the same prefix sum , and the portion
+        // between those two subarray will have sum=0;
+        map<long long,int> mpp;
+        long long sum=0;
+        int maxlen= 0;
+        for(int i=0;i<arr.size();i++){
+            sum += arr[i];
+            if(sum==0){
+                maxlen = max(maxlen,i+1); // if we found a subarray with sum zero that can be the longest subarray also
+            }
+            if(mpp.find(sum)!=mpp.end()){
+                maxlen = max(maxlen,i-mpp[sum]); // if the subarray with the same prefix sum is found 
+            }
+            if(mpp.find(sum)==mpp.end()){
+                mpp[sum] = i;           // if not then we will update the key value pair;
+            }
         }
-
-        // calculate the sum of remaining part i.e. x-k:
-        long long rem = sum - k;
-
-        //Calculate the length and update maxLen:
-        if (preSumMap.find(rem) != preSumMap.end()) {
-            int len = i - preSumMap[rem];
-            maxLen = max(maxLen, len);
-        }
-
-        //Finally, update the map checking the conditions:
-        if (preSumMap.find(sum) == preSumMap.end()) {
-            preSumMap[sum] = i;
-        }
-    }
-
-    return maxLen;
+        return maxlen;
+        
     }
 };
-
-
-//{ Driver Code Starts.
-
-int main() {
-    int t;
-    cin >> t;
-    cin.ignore(); // to ignore the newline after the integer input
-    while (t--) {
-        int n;
-        vector<int> a;
-        string input;
-
-        // Input format: first number n followed by the array elements
-        getline(cin, input);
-        stringstream ss(input);
-        int num;
-        while (ss >> num)
-            a.push_back(num);
-
-        Solution obj;
-        cout << obj.maxLen(a) << endl;
-        cout << "~\n";
-    }
-
-    return 0;
-}
-
-// } Driver Code Ends
