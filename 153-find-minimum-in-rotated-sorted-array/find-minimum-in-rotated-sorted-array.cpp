@@ -4,11 +4,12 @@ public:
         int low = 0;
         int high = arr.size()-1;
         int mini = INT_MAX;
-        if(arr[low]<arr[high]){ // means array is already sorted 
-                return arr[low];
-            }
         while(low<=high){
-            int mid = (low+high)/2;
+            if(arr[low]<=arr[high]){ // means array is already sorted 
+                mini = min(mini, arr[low]);
+                break;
+            }
+            int mid = low + (high - low) / 2;
             if(arr[mid]<=arr[high]){   // if arr[mid]<=arr[high] , then it means right half is sorted and we will never get mimimum on right side , because values are increasing at that side
                 mini = min(mini,arr[mid]);
                 high = mid-1;  // reduce search space to the left side
