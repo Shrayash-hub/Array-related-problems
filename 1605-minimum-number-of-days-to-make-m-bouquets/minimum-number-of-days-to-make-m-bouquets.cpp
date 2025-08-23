@@ -18,32 +18,31 @@ public:
         }
         return mini;
     }
+    // to check number of consecutive flowers bloomed 
     int check(int mid,vector<int> arr,int m,int k){
         int count = 0;
         int bouq = 0;
         for(int i =0;i<arr.size();i++){
             if(arr[i]<=mid){
                 count++;
-                if(count==k) {
-                    bouq++ ;
-                    count=0 ;
-                }
             }
             else{
+                bouq += (count/k);
                 count=0;
             }
         }
+        bouq += (count/k);
         if(bouq>=m) return 1;
         return 0;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
        if(1LL*m*k > bloomDay.size()) return -1; 
-       int low = min_ele(bloomDay); 
+       int low = min_ele(bloomDay); // range is going to be the minimum number of days taken to bloom a flower to maximum number of days taken to bloom a flower 
        int high = max_ele(bloomDay); 
        int ans = -1;
        while(low<=high){
         int mid = (low+high)/2;
-        if(check(mid,bloomDay,m,k)==1){
+        if(check(mid,bloomDay,m,k)==1){  
             ans = mid;
             high = mid-1;
         }
