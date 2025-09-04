@@ -1,100 +1,21 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
 // User function template for C++
 class Solution {
   public:
-  int lowerBound(vector<int> arr, int n, int x) {
-    int low = 0, high = n - 1;
-    int ans = n;
-
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        // maybe an answer
-        if (arr[mid] >= x) {
-            ans = mid;
-            //look for smaller index on the left
-            high = mid - 1;
-        }
-        else {
-            low = mid + 1; // look on the right
-        }
-    }
-    return ans;
-}
-    int rowWithMax1s(vector<vector<int>> &arr) {
+    int rowWithMax1s(vector<vector<int>> &mat) {
         // code here
-        int n = arr.size();
-        int m = arr[0].size();
-        int cnt_max = 0;
-    int index = -1;
-
-    //traverse the rows:
-    for (int i = 0; i < n; i++) {
-        // get the number of 1's:
-        int cnt_ones = m - lowerBound(arr[i], m, 1);
-        if (cnt_ones > cnt_max) {
-            cnt_max = cnt_ones;
-            index = i;
-        }
-    }
-    return index;
-    }
-};
-
-//{ Driver Code Starts.
-
-int main() {
-    int t;
-    cin >> t;
-    cin.ignore(); // Ignore the newline character after the integer input
-    while (t--) {
-        string input;
-        getline(cin, input);
-        vector<vector<int>> mat;
-        string innerArray;
-        bool isInsideArray = false;
-
-        for (char c : input) {
-            if (c == '[') {
-                if (isInsideArray) {
-                    innerArray.clear();
-                }
-                isInsideArray = true;
-            } else if (c == ']') {
-                if (isInsideArray && !innerArray.empty()) {
-                    vector<int> row;
-                    stringstream ss(innerArray);
-                    int num;
-
-                    while (ss >> num) {
-                        row.push_back(num);
-                        if (ss.peek() == ',')
-                            ss.ignore();
-                        while (isspace(ss.peek()))
-                            ss.ignore();
-                    }
-
-                    mat.push_back(row);
-                    innerArray.clear();
-                }
-                isInsideArray = false;
-            } else if (isInsideArray) {
-                if (!isspace(c)) {
-                    innerArray += c;
-                }
+        int max_count = -1;
+        int index = -1;
+        for(int i=0;i<mat.size();i++){
+            // we can find the first index of the 1 and then subtract it from the clm size , to find the count of the 1's
+            auto it = lower_bound(mat[i].begin(), mat[i].end(), 1);
+        
+            // Distance nikal lo
+            int count = mat[i].end() - it; // Number of 1's in this row
+            if(count>max_count) {
+                max_count = count;
+                index = i;
             }
         }
-
-        Solution obj;
-        cout << obj.rowWithMax1s(mat);
-        cout << endl;
-        cout << "~" << endl;
+        return index;
     }
-    return 0;
-}
-
-// } Driver Code Ends
+};
